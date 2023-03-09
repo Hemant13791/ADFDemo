@@ -1,5 +1,5 @@
 {
-	"name": "CSV_raw",
+	"name": "tgt_raw",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "CSV_Hemantadls",
@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "source"
+				"folderPath": "C",
+				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
@@ -19,15 +20,19 @@
 		},
 		"schema": [
 			{
+				"name": "Name",
 				"type": "String"
 			},
 			{
+				"name": "Category",
 				"type": "String"
 			},
 			{
+				"name": "Status",
 				"type": "String"
 			},
 			{
+				"name": "Error",
 				"type": "String"
 			}
 		]

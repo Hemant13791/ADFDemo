@@ -20,7 +20,9 @@
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
-							"wildcardFileName": "*.csv",
+							"modifiedDatetimeStart": "2023-03-09T00:00:00.000Z",
+							"modifiedDatetimeEnd": "2023-03-09T00:00:00.000Z",
+							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -56,7 +58,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "CSV_raw",
+						"referenceName": "tgt_raw",
 						"type": "DatasetReference"
 					}
 				]
