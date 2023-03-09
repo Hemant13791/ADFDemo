@@ -22,7 +22,7 @@
 							"recursive": true,
 							"modifiedDatetimeStart": "2023-03-09T00:00:00.000Z",
 							"modifiedDatetimeEnd": "2023-03-09T00:00:00.000Z",
-							"wildcardFileName": "*",
+							"wildcardFileName": "*.csv",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
