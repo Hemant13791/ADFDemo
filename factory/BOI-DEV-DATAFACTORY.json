@@ -1,0 +1,9 @@
+{
+	"name": "BOI-DEV-DATAFACTORY",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7127aead-faf6-4a7e-8ddc-68d128b419ab",
+		"tenantId": "f4905733-5ed7-499e-9b32-590c5f11920f"
+	}
+}
